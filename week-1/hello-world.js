@@ -1,9 +1,9 @@
-/*
-*Title: Assignment 1.3
-*Author: Professor Krasso
-*Date: 27 May 2020
-*Modified By: Karina Alvarez
-*Description: Hello World Assignment. Week 1
-*/
+/*=======================================
+; Title: Assignment 1.4
+; Author: Professor Krasso 
+; Date: 27 June 2017
+; Modified By: Karina Alvarez
+; Description: Hello World Assignment.
+=======================================*/
 //Following professor Krasso instructions
 console.log("Hello World, my name is Karina Alvarez");
