@@ -1,0 +1,22 @@
+# ======================================
+# Title: Week 2 - Functions
+# Author: Professor Krasso
+# Date: 31 May 2020
+# Modified By: Karina Alvarez
+# Description: Adding Adding .gitignore
+# (global configuration file for git
+# to web-231 GitHub repository.
+# ======================================
+
+# IDE
+.vscode
+.idea
+
+# Node ddependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
