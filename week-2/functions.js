@@ -36,7 +36,7 @@ function dateWriter(year, month, day) {
  * Response: numOfFixedPosition
  * Description: temperature is returned (33.6 degrees)
  */
-function formatNumber() {
+function formatNumber(number, numOfFixedPosition) {
   var number = 33.62349;
   var numOfFixedPosition = number.toFixed(1);
 return numOfFixedPosition;
@@ -65,5 +65,5 @@ function convertToFloat (savingGoal) {
 //Output
 console.log ('\n')
 console.log('Hello, my name is ' + fullName("Karina", "Alvarez") + '!');
-console.log('Today\'s date is ' + dateWriter("2020", "6", "3") + ' and the current temperature is ' + formatNumber () + ' degrees.');
+console.log('Today\'s date is ' + dateWriter("2020", "6", "5") + ' and the current temperature is ' + formatNumber () + ' degrees.');
 console.log ('I am ' + convertToInt() + ' years old and my savings account goal is ' +  convertToFloat() + ' dollars.');
