@@ -3,7 +3,7 @@ const header = require('./alvarez-header.js');
 console.log(header.display("Karina", "Alvarez", "Exercise 3.3 - Control Statements"));
 /*
 ============================================
-; Title:  pattern-matching-functions.js
+; Title:  Control Statements
 ; Author: Professor Krasso
 ; Date:   11 June 2020
 ; Modify by: Karina Alvarez
