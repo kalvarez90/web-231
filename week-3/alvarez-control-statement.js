@@ -7,7 +7,8 @@ console.log(header.display("Karina", "Alvarez", "Exercise 3.3 - Control Statemen
 ; Author: Professor Krasso
 ; Date:   11 June 2020
 ; Modify by: Karina Alvarez
-; Description: Displays a string message if the choice variable equals 13
+; Description: Displays a string message if
+;the choice variable equals 13
 ;===========================================
 */
 
@@ -15,6 +16,8 @@ console.log(header.display("Karina", "Alvarez", "Exercise 3.3 - Control Statemen
 
 let eventKeyCode = '13'
 
+// Replace the if...else statement for a switch statement
+// output is "The enter key was pressed."
 switch (eventKeyCode) {
   case '13':
   console.log('\n' + 'The enter key was pressed.')
@@ -36,3 +39,4 @@ switch (eventKeyCode) {
   console.log('Unrecognized key.')
   break;
 }
+// end of program
