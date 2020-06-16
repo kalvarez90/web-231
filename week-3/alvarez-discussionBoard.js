@@ -1,6 +1,6 @@
 const header = require('./alvarez-header.js');
 
-console.log(header.display("Karina", "Alvarez", "Exercise 3.1 - Control Statements"));
+console.log(header.display("Karina", "Alvarez", "Discussion Board 3.1 - Control Statements"));
 console.log ('\n');
 /*=======================================
 ; Title: Discussion Board 3.1
