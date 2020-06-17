@@ -17,7 +17,11 @@ console.log ('\n');
 // array of fruit values
 var fruits = ["Mango", "Apple", "Watermelon", "Banana", "Orange"];
 
-//function with for loop
+/**
+ * Params: array
+ * Response: array element
+ * Description: Returns array
+ */
 function getFruit(arr) {
   for (let x = 0; x < arr.length; x++) {
     console.log(arr[x]);
