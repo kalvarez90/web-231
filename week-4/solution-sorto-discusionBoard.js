@@ -20,7 +20,7 @@
   	function displayColors(colors){
 
   	if(Array.isArray(colors)){
-  	for(var i = 0; i< colors.length; i++){  // errased () after colors.length
+  	for(var i = 0; i< colors.length; i++){  // erased () after colors.length
   	console.log(colors[i]); // changed {} for []
   	}
   	}
