@@ -13,17 +13,19 @@
   	 
   	//FIXME: Should output a list of colors. 
   	 
-  	var myColors = {"Black","Blue", "Brown", "Gray", "Green","Orange", "Purple", "Red","White", "Yellow"};
+     // changed {} for []
+  	var myColors = ["Black","Blue", "Brown", "Gray", "Green","Orange", "Purple", "Red","White", "Yellow"];
   	 
   	//Validate an array and then loop through an array.
   	function displayColors(colors){
   	 
   	if(Array.isArray(colors)){
-  	for(var i = 0; i< colors.length(); i++){
-  	console.log(colors{i});
+  	for(var i = 0; i< colors.length; i++){  // errased () after colors.length
+  	console.log(colors[i]); // changed {} for []
   	}
   	}
   	}
   	 
   	//Calls displayColors function
   	displayColors(myColors);
+  	 
