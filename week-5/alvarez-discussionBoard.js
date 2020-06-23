@@ -36,7 +36,7 @@ for (let {key, value} of emoji) {
 //two errors below
 // Output
 console.log('\n'); // new line
-console.log(emoji.get('🍕')); // output is -> pizza
-console.log(emoji.has('🚗')); // output is -> true
+console,log(emoji.get('🍕')); // output is -> pizza
+console.log(emoji.has('🚗'); // output is -> true
 
 // end of program
