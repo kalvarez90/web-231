@@ -9,7 +9,12 @@
   	;===========================================
   	*/
 
+  	//header
+  	const header = require('./hairston-header.js')
 
+    console.log(header.display('Brooklyn','Hairston', 'Discussion'))
+
+    //program with two errors
 
 
  let stopLight = new Map()
