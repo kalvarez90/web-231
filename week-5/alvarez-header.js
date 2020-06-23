@@ -2,7 +2,7 @@
 ============================================
 ; Title:  alvarez-header.js
 ; Author: Professor Krasso
-; Date:   2 June 2020
+; Date:   22 June 2020
 ; Modified by: Karina Alvarez
 ; Description: Displays a formatted header
 ;===========================================
