@@ -14,7 +14,7 @@ fruitColor.set ( 'Apple' , 'Red' );
 fruitColor.set ( 'Pear' , 'Green' ); // changed , for .
 
 // Displays the value of the new Map
-for ( let [key , value] of fruitColor) {  // remove s after let
+for ( let [key , value] of fruitColor) {  // remove s after let. "lets" will not give an output
 console.log ('The ' + key + ' is ' + value );
-} // remove s after log
+} // console.logs do not exist so I have remove s after log
 
