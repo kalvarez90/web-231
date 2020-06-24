@@ -11,9 +11,10 @@
 // Creates a new map and set what is being passed
 let fruitColor = new Map ();
 fruitColor.set ( 'Apple' , 'Red' );
-fruitColor,set ( 'Pear' , 'Green' );
+fruitColor.set ( 'Pear' , 'Green' ); // changed , for .
 
 // Displays the value of the new Map
-for ( lets [key , value] of fruitColor) {
-console.logs ('The ' + key + ' is ' + value );
-}
+for ( let [key , value] of fruitColor) {  // remove s after let
+console.log ('The ' + key + ' is ' + value );
+} // remove s after log
+
