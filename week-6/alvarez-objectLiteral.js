@@ -4,23 +4,25 @@ console.log(header.display("Karina", "Alvarez", "Discussion Board 6.1 - Objects 
 console.log ('\n');
 /*
 ============================================
-; Title:  exception-handling.js
+; Title:  Discussion Board
 ; Author: Professor Krasso
-; Date:   30 June 2020
+; Date:   29 June 2020
 ; Modified by: Karina Alvarez
 ; Description: Demonstrates how to create
-; a try/catch/finally block
+; an object and output the properties.
 ;===========================================
 */
 
-// Start of program
+//start of program
 
-try {
- person.firstName('Karina');
-} catch (err) {
-  console.log('Catch clause: ' + err)
-} finally {
-  console.log('Finally clause reached...')
+//object literal
+var person = {
+  id: '205',
+  name: 'Help Desk Support',
+  requestor: 'Karina Alvarez'
 }
 
-// end of program
+//output
+console.log('id: ' + person.id + ', name: ' + person.name + ', requestor: ' + person.requestor);
+
+//end of program
