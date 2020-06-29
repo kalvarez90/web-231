@@ -52,7 +52,7 @@ famousComposers = [
 
 // return a new list of objects with the lastName and rating
 let ratings = famousComposers.map((composer) => {
-  return 'Rating: ' + composer.rating + '\n' + 'Composer: ' + composer.lastName
+  return [composer.rating, composer.lastName]
 })
 
 // return a new list of objects with the lastName and genre
@@ -62,8 +62,8 @@ let genres = famousComposers.map((composer) => {
 
 // output 1
 console.log('-- COMPOSERS BY RATING--')
-ratings.forEach((x) => {
-  console.log(x + '\n')
+ratings.forEach((lastName, rating) => {
+  console.log('rating: ' + rating + '\n' + 'Last Name: ' + lastName)
 })
 
 //OUTPUT 2
