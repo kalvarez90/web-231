@@ -1,6 +1,6 @@
 const header = require('./alvarez-header.js');
 
-console.log(header.display("Karina", "Alvarez", "Discussion Board 6.1 - Objects and Build-in Objects"));
+console.log(header.display("Karina", "Alvarez", "Assignment 6.4 - Nested Object Literals"));
 console.log ('\n');
 /*
 ============================================
