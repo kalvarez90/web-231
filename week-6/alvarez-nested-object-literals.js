@@ -6,7 +6,7 @@ console.log ('\n');
 ============================================
 ; Title:  Discussion Board
 ; Author: Professor Krasso
-; Date:   29 June 2020
+; Date:   1 July 2020
 ; Modified by: Karina Alvarez
 ; Description: Demonstrates how to create
 ; and display nested objects
