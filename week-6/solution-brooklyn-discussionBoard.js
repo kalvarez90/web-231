@@ -17,16 +17,16 @@
 /** expected output:
 * Tonight's dinner is: Potato Skins, Cheeseburgers and Ice Cream.
 */
-var friday: {
-  appetizer = "Stuffed Mushrooms",
-  entree = "Chicken Alfredo",
-  dessert = "Chocolate Cake"
+var friday = {  // changed colon ':' for equal sign '='
+  appetizer: "Stuffed Mushrooms", // changed the equal sign '=' for colon ':'
+  entree: "Chicken Alfredo", // changed the equal sign '=' for colon ':'
+  dessert: "Chocolate Cake"  // changed the equal sign '=' for colon ':'
   };
 
-var saturday: {
-  appetizer = "Potato Skins",
-  entree = "Cheeseburgers",
-  dessert = "Ice Cream"
+var saturday = {  // changed equal sign '=' for colon ':'
+  appetizer: "Potato Skins", // changed the equal sign '=' for colon ':'
+  entree: "Cheeseburgers",  // changed the equal sign '=' for colon ':'
+  dessert: "Ice Cream"  // changed the equal sign '=' for colon ':'
 };
 
 var sunday = {
@@ -40,7 +40,7 @@ var sunday = {
   console.log("Tonight's dinner is: " + this.appetizer + ", " + this.entree + " and " + this.dessert + ".");}
   friday.menu = menu;
   saturday.menu = menu;
-  sundaymenu = menu;
+  sunday.menu = menu; // added a dot '.' between sunday and menu
 
 
   console.log("\n");

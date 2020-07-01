@@ -13,7 +13,7 @@ console.log ('\n');
 ;===========================================
 */
 
-// Start of project
+// Start of program
 
 // Creating an object - person
 // Two error below
