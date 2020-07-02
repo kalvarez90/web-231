@@ -1,8 +1,8 @@
 /* ============================================
   	; Title: Assignment 6.1
-  	; Author: Professor Krasso
-  	; Date: 1 July 2020
-  	; Modified By: Douglas Jenkins
+  	; Author: Douglas Jenkins
+  	; Date: 2 July 2020
+  	; Modified By: Karina Alvarez
   	; Description: Errors below
   	;=========================================== */
 
@@ -19,12 +19,16 @@
   	const sum = x - y
 
   	// if statement ===
-  	if (sum === 2 ) throws 'Equal Value'
+  	if (sum === 2 ) throw 'Equal Value' // removed s from throw
 
   	// output
   	console.log(sum)
-  	} catch (errs) {
+  	} catch (err) { // removed s from err
   	console.log('Catch clause: ' + err)
-  	} finally [
+  	} finally {
   	console.log('Finally clause reached...')
-  	]
+    } // changed square brackets [ ] for curly brackets { }
+
+    // Output is:
+    //Catch clause: Equal Value
+    // Finally clause reached...
