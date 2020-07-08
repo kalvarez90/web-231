@@ -1,0 +1,56 @@
+<!--
+============================================
+; Title:  client-side-javascript.html
+; Author: Professor Krasso
+; Date:   6 July 2020
+; Modified by: Karina Alvarez
+; Description: Demonstrates client-side JavaScript
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alvarez Client-Side JavaScript</title>
+
+  <link rel="stylesheet" href="../site.css">
+
+</head>
+<body>
+
+<div id= "list"></div>
+<script>
+  document.write("<h1> GROCERY LIST v.2 </h1>")
+  document.write("<ol> <li>Oranges</li> <li>Apples</li> <li>Pears</li> <li>Limes</li> <li>Lemons</li></ol>")
+</script>
+
+
+<div id="grocery"></div>
+<script>
+  document.getElementById('grocery').innerHTML = "<h1>GROCERY LIST v.2</h1>" +
+    "<table>" +
+    "<thead>" +
+    "<tr>" +
+    "<th>Id</th>" +
+    "<th>Items</th>" +
+    "</tr>" +
+    "</thead>" +
+    "<tbody>" +
+    "<tr><td>1</td>" +
+    "<td>Oranges</td></tr>" +
+    "<tr><td>2</td>" +
+    "<td>Apples</td></tr>" +
+    "<tr><td>3</td>" +
+    "<td>Pears</td></tr>" +
+    "<tr><td>4</td>" +
+    "<td>Limes</td></tr>" +
+    "<tr><td>5</td>" +
+    "<td>Lemons</td></tr>" +
+    "</tbody>" +
+    "</table>"
+</script>
+
+
+</body>
+</html>
