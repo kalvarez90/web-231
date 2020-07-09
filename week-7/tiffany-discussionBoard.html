@@ -1,0 +1,35 @@
+<!---
+============================================
+; Title: discussion 7.1
+; Author: Tiffany Baker
+; Date:7/9/2020
+; Modified By: Karina Alvarez
+; Description:simple html with embedded javascript with 2 errors.
+;
+;===========================================
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!--header holding header script-->
+    <head>
+        <title>Main</title>
+        <meta charset="UTF-8">
+        <!--When debugging with Chrome, it will give you an error -->
+        <!--with your header, because the HTML file won't pull the js file-->
+        <!--I still left this here because you had an specific error which-->
+        <!--was adding the closing </script>-->
+        <script>
+            const header = require('../alvarez-header.js');
+            console.log(header.display("Tiffany", "Baker", "assignment"));
+        </script>
+    </head>
+
+    <body>
+        <!--button signaling alert-->
+        <div>
+          <!-- I have added the missing k in onclick-->
+            <button type="button" onclick="alert('Yay! It worked!')">Click Me</button>
+        </div>
+    </body>
+</html>
