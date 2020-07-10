@@ -1,0 +1,53 @@
+<!--
+============================================
+; Title:  hairston-discussion-7-1.js
+; Author: Brooklyn Hairston
+; Date: 9 July 2020
+; Modified by: Karina Alvarez
+; Description: Program with multiple errors
+;===========================================
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Discussion 7.1</title>
+</head>
+<body>
+<h1 id ="greeting">Greeting goes here. </h1>
+<h2 id ="user">User name goes here.</h2>
+<script>
+
+//program with multiple errors
+/** * expected output depending on time of day:
+* 12am-12pm -Good Morning, Brooklyn Hairston!
+* 12pm-5pm -Good Afternoon, Brooklyn Hairston!
+* 5pm-12am -Good Evening, Brooklyn Hairston!
+**/
+var user = {
+firstName: "Brooklyn",
+lastName: "Hairston",
+};
+var today = new Date();
+var time = today.getHours();
+var greet;
+
+//one error below
+if (time < 12) {
+greet = "Good Morning,";
+//error1: Added missing curly bracket '{'
+} else if (time >= 12 && time <= 17) {
+greet = "Good Afternoon,";
+} else if (time >= 17 && time <= 24) {
+greet = "Good Evening,";
+};
+
+//three errors below
+// error2: added missing e in innerHTML
+// error3: rather than using "greet" I changed it for the id of "greeting"
+document.getElementById("greeting").innerHTML = greet;
+
+// error4: Changed getElementByClassName to getElementById because "user" is the id given to h2
+document.getElementById("user").innerHTML = user.firstName + " " + user.lastName + "!";
+</script>
+</body>
+</html>
