@@ -1,0 +1,145 @@
+<!--
+============================================
+; Title:  alvarez-jquery.html
+; Author: Professor Krasso
+; Date:   16 July 2020
+; Modified by: Karina Alvarez
+; Description: Demonstrates the use of jQuery
+;===========================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Exercise 8.3</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <style type="text/css">
+    body {
+    font-family: 'Roboto', sans-serif;
+    padding-left:20px;
+  }
+
+    h2 {
+      padding-top: 20px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    nav {
+      overflow: hidden;
+      width: 100%;
+      background-color:darkseagreen;
+      }
+
+    nav a {
+      text-align: center;
+      float: left;
+      display: block;
+      padding: 18px;
+      text-decoration: none;
+      font-size: 23px;
+    }
+
+    nav a:hover {
+      background-color: #ffffff;
+      font-weight: bold;
+    }
+
+    button {
+      margin-bottom: 20px;
+    }
+
+    table, td {
+      padding: 5px;
+    }
+    tr:nth-child(even) {
+      background-color:palegoldenrod;
+      }
+  </style>
+
+</head>
+
+<body>
+
+  <nav>
+    <a>Menu</a>
+    <a>About</a>
+  </nav>
+
+<h2>Lorem Ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel nibh quis dolor sollicitudin tempor.
+  Vestibulum et magna eleifend felis elementum cursus. Mauris vestibulum enim in lectus condimentum semper.
+  Nunc quis massa dignissim, congue magna vel, tristique mi. Interdum et malesuada fames ac ante ipsum primis
+  in faucibus. Aenean molestie orci non nulla ornare auctor. Integer molestie eleifend nisl, id iaculis orci
+  pharetra in. Aliquam at lectus sit amet nulla dapibus ullamcorper sed vitae nunc. Aliquam in dui enim.
+  Suspendisse posuere cursus nisl nec scelerisque. Mauris eget elit id ante blandit dignissim. Nullam vitae
+  nisl sed ex egestas pulvinar. Aliquam erat volutpat. Suspendisse potenti. Donec maximus interdum nulla at
+  eleifend. Morbi enim lectus, molestie ac pellentesque dictum, vestibulum ac ipsum. </p>
+
+  <button>Toggle</button>
+
+  <table>
+    <tr>
+      <th>Id</th>
+      <th>Type</th>
+    </tr>
+    <tr>
+      <td id='A'><a href="#">001</a></td>
+      <td>Apricot</td>
+    </tr>
+    <tr>
+      <td id='B'><a href="#">002</a></td>
+      <td>Banana</td>
+    </tr>
+    <tr>
+      <td id='C'><a href="#">003</a></td>
+      <td>Cantaloupe</td>
+    </tr>
+    <tr>
+      <td id= 'D'><a href="#">004</a></td>
+      <td>Dates</td>
+    </tr>
+    <tr>
+      <td id='E'><a href="#">005</a></td>
+      <td>Elderberry</td>
+    </tr>
+  </table>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("p").toggle();
+      });
+    });
+
+    $("td#A").click(function(){
+      alert("001 Apricot");
+    });
+
+    $("td#B").click(function(){
+      alert("002 Banana");
+    });
+
+    $("td#C").click(function(){
+      alert("003 Cantaloupe");
+    });
+
+    $("td#D").click(function(){
+      alert("004 Dates");
+    });
+
+    $("td#E").click(function(){
+      alert("005 Elderberry");
+    });
+    </script>
+</body>
+
+</html>
