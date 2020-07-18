@@ -1,0 +1,32 @@
+<!--/*
+============================================
+; Title:  gonzalez-discussion-8.1
+; Author: Juvenal Gonzalez
+; Date:   12 July 2020
+: Modified by: Karina Alvarez
+; Description: Create an html with javascript incorporating the Jquery library with 2 errors.
+;===========================================
+*/ -->
+<!-- Expected Output: a button that fades in a hidden div tag-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){ // One Error --> added dollar sign '$' to call the function
+    $("div").fadeIn("slow"); // One Error --> changed 'fade1' for 'div'
+  });
+});
+</script>
+</head>
+
+<body>
+
+<button>Click For Fade In</button><br><br>
+
+<div id ="fade1" style="display:none;background-color:red;width:36px;"> Hello </div>
+
+</body>
+</html>
